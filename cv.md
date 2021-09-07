@@ -27,6 +27,22 @@ Belarusian National Technical University (Faculty of Information Technology and 
 * Module Bundlers: Gulp.
 * Editors: Brackets, VSCode, WebStorm, Photoshop.
 
+## Code example
+Write a function **nicknameGenerator**, that takes a string name as an argument and returns the first 3 or 4 letters as a nickname.
+
+If the 3rd letter is a consonant, return the first 3 letters.
+If the 3rd letter is a vowel, return the first 4 letters.
+If the string is less than 4 characters, return "Error: Name too short".
+
+```
+function nicknameGenerator(name){
+  let vowels = 'aeiou';
+  if(name.length < 4) return "Error: Name too short";
+  let nickName = (!vowels.includes(name[2])) ? name.substr(0,3) : name.substr(0,4);
+  return nickName;
+}
+```
+
 ## Experience
 Several small sites for friends.
 
