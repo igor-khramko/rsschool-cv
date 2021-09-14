@@ -134,15 +134,14 @@
                         If the string is less than 4 characters, return “Error: Name too short”.
                         <pre class="code-example">
                             <code class="code-example__code">
-    <span class="code-example__keyword">function</span> <span class="code-example__method">nicknameGenerator</span> (<span class="code-example__variable">name</span>){
-        <span class="code-example__keyword">let</span> <span class="code-example__variable">vowels</span> = <span class="code-example__string">'aeiou'</span>;
-        <span class="code-example__keyword">if</span>(<span class="code-example__variable">name</span>.length &lt; <span class="code-example__number">4</span>) <span class="code-example__keyword">return</span> <span class="code-example__string">"Error: Name too short"</span>;
-        <span class="code-example__keyword">let</span> <span class="code-example__variable">nickName</span> = !<span
-        class="code-example__variable">vowels</span>.<span class="code-example__method">includes</span>([<span class="code-example__number">2</span>]))
+<span class="code-example__keyword">function</span> <span class="code-example__method">nicknameGenerator</span> (<span class="code-example__variable">name</span>){
+    <span class="code-example__keyword">let</span> <span class="code-example__variable">vowels</span> = <span class="code-example__string">'aeiou'</span>;
+    <span class="code-example__keyword">if</span>(<span class="code-example__variable">name</span>.length &lt; <span class="code-example__number">4</span>) <span class="code-example__keyword">return</span> <span class="code-example__string">"Error: Name too short"</span>;
+    <span class="code-example__keyword">let</span> <span class="code-example__variable">nickName</span> = !<span class="code-example__variable">vowels</span>.<span class="code-example__method">includes</span>([<span class="code-example__number">2</span>]))
         ? <span class="code-example__variable">name</span>.<span class="code-example__method">substr</span>(<span class="code-example__number">0</span>,<span class="code-example__number">3</span>)
         : <span class="code-example__variable">name</span>.<span class="code-example__method">substr</span>(<span class="code-example__number">0</span>,<span class="code-example__number">4</span>);
-        <span class="code-example__keyword">return</span> <span class="code-example__variable">nickName</span><span class="code-example__keyword">;</span>
-    }                       </code>
+    <span class="code-example__keyword">return</span> <span class="code-example__variable">nickName</span><span class="code-example__keyword">;</span>
+}                           </code>
                         </pre>
                     </div>
                 </div>
