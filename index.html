@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Igor Khramko CV</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/dark-theme-cfg.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<input type="checkbox" id="theme-switcher-checkbox">
+<label class="theme-switcher-button" for="theme-switcher-checkbox"></label>
+<header class="header">
+    <div class="container">
+        <div class="section__content_header">
+            <div class="header__link">
+                <a href="https://igor-khramko.github.io/rsschool-cv/cv">rsschool-cv</a>
+            </div>
+            <div class="header__name">Igor Khramko</div>
+            <img class="header__photo" src="img/avatar.png" alt="I.Khramko avatar">
+        </div>
+    </div>
+</header>
+<main class="main-content">
+    <section class="section">
+        <div class="container">
+            <div class="section__content section__content_right">
+                <div class="section__icon section__icon_left">&#xe803;</div>
+                <h2 class="section__header">Contact Info</h2>
+                <div class="section__description">
+                    <ul>
+                        <li>Phone: <a href="tel:+375295249074">+37529 5249074</a></li>
+                        <li>Telegram: <a href="https://t.me/fenro9">@fenro9</a></li>
+                        <li>E-mail: <a href="https://mailto:igorkhramko@gmail.com/">igorkhramko@gmail.com</a></li>
+                        <li>GitHub: <a href="https://github.com/igor-khramko">igor-khramko</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section__content section__content_left">
+                <div class="section__icon section__icon_right">&#xe800;</div>
+                <h2 class="section__header">About Me</h2>
+                <div class="section__description">
+                    I am 27 years old.<br>
+                    I have a higher education and experience in the army.<br>
+                    I work as a technical support specialist and want to improve my knowledge in front-end development.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section__content section__content_right">
+                <div class="section__icon section__icon_left">&#xe801;</div>
+                <h2 class="section__header">Education</h2>
+                <div class="section__description">
+                    <div>
+                        <div class="section__subheader">University</div>
+                        <p>Belarusian National Technical University</p>
+                        <p>(Faculty of Information Technology and Robotics)</p>
+                    </div>
+                    <div>
+                        <div class="section__subheader">Courses:</div>
+                        <p>Programming HTML, CSS, JavaScript (Stormnet)</p>
+                        <p>JavaScript: advanced level (IT-Academy)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section__content section__content_left">
+                <div class="section__icon section__icon_right">&#xf0eb;</div>
+                <h2 class="section__header">Skills</h2>
+                <div class="section__description">
+                    <ul>
+                        <li>HTML5.</li>
+                        <li>CSS3: Pug (Jade), SCSS, BEM methodology, Bootstrap.</li>
+                        <li>JavaScript (in progress).</li>
+                        <li>Version control: Git (remote service GitHub).</li>
+                        <li>Module Bundlers: Gulp.</li>
+                        <li>Editors: Brackets, VSCode, WebStorm, Photoshop.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section__content section__content_right">
+                <div class="section__icon section__icon_left">&#xf1cb;</div>
+                <h2 class="section__header">Code example</h2>
+                <div class="section__description">
+                    Write a function nicknameGenerator, that takes a string name as an argument and returns the first 3
+                    or 4 letters as a nickname.<br>
+                    If the 3rd letter is a consonant, return the first 3 letters.<br>
+                    If the 3rd letter is a vowel, return the first 4 letters.<br>
+                    If the string is less than 4 characters, return “Error: Name too short”.
+                    <pre class="code-example">
+                            <code class="code-example__code">
+<span class="code-example__keyword">function</span> <span class="code-example__method">nicknameGenerator</span> (<span class="code-example__variable">name</span>){
+  <span class="code-example__keyword">let</span> <span class="code-example__variable">vowels</span> = <span class="code-example__string">'aeiou'</span>;
+  <span class="code-example__keyword">if</span>(<span class="code-example__variable">name</span>.length &lt; <span class="code-example__number">4</span>) <span
+class="code-example__keyword">return</span> <span class="code-example__string">"Error: Name too short"</span>;
+  <span class="code-example__keyword">let</span> <span class="code-example__variable">nickName</span> = !<span
+    class="code-example__variable">vowels</span>.<span class="code-example__method">includes</span>([<span class="code-example__number">2</span>]))
+    ? <span class="code-example__variable">name</span>.<span class="code-example__method">substr</span>(<span class="code-example__number">0</span>,<span class="code-example__number">3</span>)
+    : <span class="code-example__variable">name</span>.<span class="code-example__method">substr</span>(<span class="code-example__number">0</span>,<span class="code-example__number">4</span>);
+    <span class="code-example__keyword">return</span> <span class="code-example__variable">nickName</span><span
+class="code-example__keyword">;</span>
+}
+                            </code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section__content section__content_left">
+                <div class="section__icon section__icon_right">&#xf04a;</div>
+                <h2 class="section__header">Experience</h2>
+                <div class="section__description">
+                    Several small sites for friends.<br>
+                    No experience in commercial web application development in the development team.
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="section__content_footer">
+            <div class="social__links">
+                <a href="https://mailto:igorkhramko@gmail.com/" class="social__link mail" title="igorkhramko@gmail.com">&#xe802;</a>
+                <a href="skype:igorkhramko@gmail.com" class="social__link skype">&#xe804;</a>
+                <a class="social__link vkontakte" href="https://vk.com/i.khramko">&#xf189;</a>
+                <a class="social__link github" href="https://github.com/igor-khramko">&#xf300;</a>
+                <a class="social__link linkedin" href="https://www.linkedin.com/in/ikhramko/">&#xf318;</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
