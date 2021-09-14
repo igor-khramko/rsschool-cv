@@ -1,0 +1,18 @@
+input:checked ~ * {
+    --main-theme-color: rgb(61, 61, 61);
+    --secondary-theme-color: rgb(26, 26, 26);
+    --main-text-color: rgba(255, 255, 255, 0.8);
+    --name-color: rgba(255, 255, 255, 0.8);
+    --header-color: rgba(255, 255, 255, 0.8);
+    --icons-bg-color: rgb(61, 61, 61);
+    --icons-color: rgba(255, 255, 255, 0.8);
+    --borders-color: rgba(255, 255, 255, 0.8);
+    --footer-icons-color: rgba(255, 255, 255, 0.8);
+    --code-example-bg: rgb(61, 61, 61);
+    --code-example-color: rgba(255, 255, 255, 0.8);
+    --code-example-keyword: #8383fb;
+    --code-example-punctuation: #59824b;
+    --code-example-name: #76a367;
+    --switcher-button-color: #8383fb;;
+    --switcher-border-color: #fff;
+}

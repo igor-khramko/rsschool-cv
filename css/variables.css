@@ -1,0 +1,20 @@
+:root{
+    --main-theme-color: #8383fb;
+    --secondary-theme-color: #fff;
+    --main-text-color: #222;
+    --name-color: #8383fb;
+    --header-color: #fff;
+    --icons-bg-color: #fff;
+    --icons-color: #8383fb;
+    --borders-color: #8383fb;
+    --footer-icons-color: #8383fb;
+    --code-example-bg: rgba(227, 227, 227, 0.5);
+    --code-example-color: #7dcaec;
+    --code-example-keyword: #bb09bb;
+    --code-example-variable: #00f;
+    --code-example-string: #52bf20;
+    --code-example-number: #bd1f1f;
+    --code-example-method: #000;
+    --switcher-button-color: rgba(255, 255, 255, 0.8);
+    --switcher-border-color: rgb(26, 26, 26);
+}
