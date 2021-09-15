@@ -22,7 +22,7 @@
 body {
   font: normal 14px "main-text-font";
   line-height: 1.6;
-  transition: background-color 200ms ease;
+  transition: background-color 0.2s ease;
 }
 
 a,
@@ -53,6 +53,7 @@ ul {
   padding: 5px;
   border-radius: 15px;
   background-color: var(--switcher-border-color);
+  cursor: pointer;
 }
 
 .switcher-button:after {
@@ -63,13 +64,9 @@ ul {
   height: 20px;
   border-radius: 50%;
   background-color: var(--switcher-button-color);
-  transition: all 200ms ease;
+  transition: all 0.2s ease;
   transform: translateX(var(--switcher-shift));
   content: "";
-}
-
-.switcher-button:hover {
-  cursor: pointer;
 }
 
 #switcher-checkbox {
