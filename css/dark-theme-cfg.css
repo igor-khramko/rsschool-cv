@@ -1,0 +1,28 @@
+input:checked ~ * {
+    --main-theme-color: #3d3d3d;
+    --secondary-theme-color: #1a1a1a;
+    --main-text-color: rgba(255, 255, 255, 0.8);
+    --name-color: rgba(255, 255, 255, 0.8);
+    --header-color: rgba(255, 255, 255, 0.8);
+    --icons-bg-color: #3d3d3d;
+    --icons-color: rgba(255, 255, 255, 0.8);
+    --borders-color: rgba(255, 255, 255, 0.8);
+    --footer-icons-color: rgba(255, 255, 255, 0.8);
+    --code-example-bg: rgba(71, 71, 71, 0.5);
+    --code-example-color: rgba(255, 255, 255, 0.8);
+    --code-example-keyword: #8383fb;
+    --code-example-variable: #e8ba80;
+    --code-example-string: #52bf20;
+    --code-example-number: #ad81d5;
+    --code-example-method: #e38181;
+    --switcher-button-color: #8383fb;
+    --switcher-border-color: #ffffff;
+    --filter-percentage: 100%;
+    --switcher-shift: 30px;
+}
+
+@media (max-width: 490px) {
+    input:checked ~ * {
+        --switcher-shift: 20px;
+    }
+}

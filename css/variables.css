@@ -1,0 +1,20 @@
+:root{
+    --main-theme-color: #8383fb;
+    --secondary-theme-color: #ffffff;
+    --main-text-color: #222222;
+    --name-color: #8383fb;
+    --header-color: #ffffff;
+    --icons-bg-color: #ffffff;
+    --icons-color: #8383fb;
+    --borders-color: #8383fb;
+    --footer-icons-color: #8383fb;
+    --code-example-bg: rgba(227, 227, 227, 0.5);
+    --code-example-color: #60b7d9;
+    --code-example-keyword: #bb09bb;
+    --code-example-variable: #0000ff;
+    --code-example-string: #52bf20;
+    --code-example-number: #bd1f1f;
+    --code-example-method: #000000;
+    --switcher-button-color: rgba(255, 255, 255, 0.8);
+    --switcher-border-color: #1a1a1a;
+}
