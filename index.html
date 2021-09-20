@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Igor Khramko CV</title>
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/dark-theme-cfg.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/dark-theme-cfg.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -14,16 +16,37 @@
     <header class="header">
         <div class="container">
             <div class="section__content_header">
+                <nav class="nav">
+                    <div class="close" data-toggle-class="nav">
+                        <span class="close__line close__line_one"></span>
+                        <span class="close__line close__line_two"></span>
+                    </div>
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#contact-info" data-toggle-class="nav">Contact Info</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#about-me" data-toggle-class="nav">About Me</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#education" data-toggle-class="nav">Education</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#skills" data-toggle-class="nav">Skills</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#code" data-toggle-class="nav">Code example</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#experience" data-toggle-class="nav">Experience</a></li>
+                    </ul>
+                </nav>
+                <div class="burger" data-toggle-class="nav">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </div>
                 <div class="header__link">
                     <a href="https://igor-khramko.github.io/rsschool-cv/cv">rsschool-cv</a>
                 </div>
-                <h1 class="header__name">Igor Khramko</h1>
-                <img class="header__photo" width="184" height="269" src="img/avatar.png" alt="I.Khramko avatar">
             </div>
         </div>
     </header>
     <main class="main-content">
-        <section class="section">
+        <section class="preview">
+            <h1 class="header__name">Igor Khramko</h1>
+            <img class="header__photo" width="184" height="269" src="img/avatar.png" alt="I.Khramko avatar">
+        </section>
+        <section class="section contact-info">
             <div class="container">
                 <div class="section__content section__content_right">
                     <div class="section__icon section__icon_left">
@@ -43,7 +66,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section about-me">
             <div class="container">
                 <div class="section__content section__content_left">
                     <div class="section__icon section__icon_right">
@@ -61,7 +84,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section education">
             <div class="container">
                 <div class="section__content section__content_right">
                     <div class="section__icon section__icon_left">
@@ -89,7 +112,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section skills">
             <div class="container">
                 <div class="section__content section__content_left">
                     <div class="section__icon section__icon_right">
@@ -119,7 +142,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section code">
             <div class="container">
                 <div class="section__content section__content_right">
                     <div class="section__icon section__icon_left">
@@ -139,7 +162,7 @@
                         <pre class="code-example">
                             <code class="code-example__code">
 <span class="code-example__keyword">function</span> <span class="code-example__method">nicknameGenerator</span> (<span class="code-example__variable">name</span>){
-    <span class="code-example__keyword">let</span> <span class="code-example__variable">vowels</span> = <span class="code-example__string">'aeiou'</span>;
+    <span class="code-example__keyword">let</span> <span class="code-example__variable">vowels</span> = <span class="code-example__string">"aeiou"</span>;
     <span class="code-example__keyword">if</span> (<span class="code-example__variable">name</span>.length &lt; <span class="code-example__number">4</span>) <span class="code-example__keyword">return</span> <span class="code-example__string">"Error: Name too short"</span>;
     <span class="code-example__keyword">let</span> <span class="code-example__variable">nickName</span> = !<span class="code-example__variable">vowels</span>.<span class="code-example__method">includes</span>([<span class="code-example__number">2</span>]))
     ? <span class="code-example__variable">name</span>.<span class="code-example__method">substr</span>(<span class="code-example__number">0</span>,<span class="code-example__number">3</span>)
@@ -151,7 +174,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section experience">
             <div class="container">
                 <div class="section__content section__content_left">
                     <div class="section__icon section__icon_right">
@@ -211,5 +234,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
