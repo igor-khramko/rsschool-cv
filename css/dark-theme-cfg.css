@@ -1,4 +1,4 @@
-input:checked ~ * {
+#switcher-checkbox:checked ~ * {
     --main-theme-color: #3d3d3d;
     --secondary-theme-color: #1a1a1a;
     --main-text-color: rgba(255, 255, 255, 0.8);
@@ -22,7 +22,7 @@ input:checked ~ * {
 }
 
 @media (max-width: 490px) {
-    input:checked ~ * {
+    #switcher-checkbox:checked ~ * {
         --switcher-shift: 20px;
     }
 }

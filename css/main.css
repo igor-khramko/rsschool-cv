@@ -74,7 +74,7 @@ ul {
 }
 
 .header {
-  padding: 20px 0;
+  padding: 25px 0;
   font: bold 30px header-font;
   color: var(--name-color);
   background-color: var(--secondary-theme-color);
@@ -125,14 +125,14 @@ ul {
 }
 
 .section__content_left {
-  align-items: end;
+  align-items: flex-end;
   width: calc(50% + 2px);
   text-align: right;
   border-right: 2px solid var(--borders-color);
 }
 
 .section__content_right {
-  align-items: start;
+  align-items: flex-start;
   margin-left: 50%;
   border-left: 2px solid var(--borders-color);
 }
@@ -277,6 +277,7 @@ ul {
 }
 
 @media (max-width: 740px) {
+
   .section__content {
     width: auto;
     max-width: 500px;
@@ -326,7 +327,7 @@ ul {
 
 @media (max-width: 490px) {
   .header {
-    padding: 10px 0 20px;
+    padding: 20px 0;
   }
 
   .switcher-button {
