@@ -24,7 +24,6 @@
     font-size: 20px;
     text-align: center;
     color: var(--header-color);
-    transition-delay: 2s;
 }
 
 .nav__link:hover {
